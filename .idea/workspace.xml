@@ -29,12 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Started Game Engine Project">
-      <change afterPath="$PROJECT_DIR$/Card.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameState.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GameState.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Action.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Action.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +112,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -122,7 +127,7 @@
       <updated>1766605279185</updated>
       <workItem from="1766605281042" duration="5058000" />
       <workItem from="1766612880082" duration="3490000" />
-      <workItem from="1766628819036" duration="763000" />
+      <workItem from="1766628819036" duration="3265000" />
     </task>
     <task id="LOCAL-00001" summary="Started Game Engine Project">
       <option name="closed" value="true" />
@@ -132,7 +137,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766612504756</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started Game Engine Project">
+      <option name="closed" value="true" />
+      <created>1766629586200</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766629586200</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started Game Engine Project">
+      <option name="closed" value="true" />
+      <created>1766629591824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766629591824</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

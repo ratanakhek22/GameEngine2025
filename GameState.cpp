@@ -12,7 +12,7 @@ GameState::GameState(Player &p1, Player &p2) {
 
 void GameState::nextTurn() {
     // handle end of turn updates
-    Player *p = players[turnIndex];
+    Player *player = players[turnIndex];
 
     // update turn index
     turnIndex = (turnIndex + 1) % 2;

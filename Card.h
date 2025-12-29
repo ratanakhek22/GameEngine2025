@@ -6,9 +6,24 @@
 #define GAMEENGINE2025_CARD_H
 
 # include <string>
+#include <utility>
+
+#include "Action.h"
 
 struct Card {
     std::string name;
+    int id = -1;
+    Action *action = nullptr;
+
+    // constructor
+    Card(std::string name, const int id) : name(std::move(name)), id(id) {};
+
+    // methods
+
+    // gets
+    int getID() const {return id;}
+    std::string getName() const {return name;}
+    Action *getAction() const {return action;}
 };
 
 

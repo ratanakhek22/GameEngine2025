@@ -28,10 +28,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Starting">
+    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Working on card and player objects">
+      <change afterPath="$PROJECT_DIR$/Random.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Random.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Action.h" beforeDir="false" afterPath="$PROJECT_DIR$/Action.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.h" beforeDir="false" afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Player.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +128,9 @@
       <workItem from="1766612880082" duration="3490000" />
       <workItem from="1766628819036" duration="3293000" />
       <workItem from="1766691590247" duration="5905000" />
-      <workItem from="1766872246631" duration="2113000" />
+      <workItem from="1766872246631" duration="6622000" />
+      <workItem from="1766953827930" duration="9078000" />
+      <workItem from="1767031254443" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="Started Game Engine Project">
       <option name="closed" value="true" />
@@ -156,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766632104206</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Working on card and player objects">
+      <option name="closed" value="true" />
+      <created>1766875997806</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766875997806</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +186,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started Game Engine Project" />
     <MESSAGE value="Starting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting" />
+    <MESSAGE value="Working on card and player objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on card and player objects" />
   </component>
 </project>

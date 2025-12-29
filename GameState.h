@@ -11,6 +11,8 @@
 
 struct GameState {
     std::array<Player *, 2> players = {};
+    std::array<std::vector<Card>, 2> drawPiles;
+    std::array<std::vector<Card>, 2> discardPiles;
     std::vector<Action> actionQueue = {};
     int turnIndex = 0;
 
@@ -19,6 +21,7 @@ struct GameState {
 
     // methods
     void nextTurn();
+    std::vector<Card> drawCards(int n, int playerIndex, bool doShuffle = true);
 };
 
 

@@ -22,6 +22,10 @@ struct Player {
     void setDeck(const std::vector<Card> &collection);
     void addCard(const Card &card);
     void removeCard(const Card &card);
+
+    // gets
+    int getHp() const {return hp;}
+    std::string getName() const {return name;}
 };
 
 #endif //GAMEENGINE2025_PLAYER_H

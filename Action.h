@@ -8,7 +8,6 @@
 #include "GameState.h"
 
 struct Action {
-    int id = -1;
     virtual ~Action() = default;
     virtual void execute(GameState &state) = 0;
 };

@@ -20,7 +20,7 @@ void Player::deleteCard(const Card &card) {
     deck.erase(
         std::remove_if(deck.begin(), deck.end(),
             [card](const Card &c) {
-                return c.id == card.id;
+                return c.getID() == card.getID();
             }),
         deck.end()
     );

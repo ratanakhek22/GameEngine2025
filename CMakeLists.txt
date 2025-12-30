@@ -18,4 +18,6 @@ add_executable(GameEngine2025
         Random.h
         main.cpp
         Actions/dealDamageAction.cpp
-        Actions/dealDamageAction.h)
+        Actions/dealDamageAction.h
+        Game.cpp
+        Game.h)

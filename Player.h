@@ -9,7 +9,7 @@
 #include <vector>
 #include "Card.h"
 
-struct Player {
+class Player {
     std::vector<Card> deck = {};
     std::vector<Card> discard = {};
     std::vector<Card> deletedCards = {};
@@ -17,6 +17,7 @@ struct Player {
     int maxHp = 0;
     int hp = 0;
 
+public:
     // constructor
     explicit Player(std::string playerName)
         : name(std::move(playerName)) {}

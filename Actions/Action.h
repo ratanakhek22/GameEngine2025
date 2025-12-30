@@ -5,10 +5,11 @@
 #ifndef GAMEENGINE2025_ACTION_H
 #define GAMEENGINE2025_ACTION_H
 
-struct Player;
-struct GameState;
+class Player;
+class GameState;
 
-struct Action {
+class Action {
+public:
     virtual ~Action() = default;
     virtual void execute(GameState &state, Player &owner, Player &target) = 0;
 };

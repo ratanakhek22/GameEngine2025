@@ -10,11 +10,12 @@
 
 #include "Actions/Action.h"
 
-struct Card {
+class Card {
     std::string name;
     int id = -1;
     Action *action = nullptr;
 
+public:
     // constructor
     Card(std::string name, const int id, Action *action) : name(std::move(name)), id(id), action(action) {};
 

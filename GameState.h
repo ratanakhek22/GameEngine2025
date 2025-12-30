@@ -9,11 +9,12 @@
 #include <vector>
 #include "Player.h"
 
-struct GameState {
+class GameState {
     std::array<Player, 2> players;
     std::vector<Action> actionQueue = {};
     int turnIndex = 0;
 
+public:
     // constructor
     GameState(const Player &p1, const Player &p2);
 

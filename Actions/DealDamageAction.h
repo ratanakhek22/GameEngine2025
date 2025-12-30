@@ -7,9 +7,10 @@
 
 #include "Action.h"
 
-struct DealDamageAction : public Action {
+class DealDamageAction : public Action {
     int damage;
 
+public:
     // constructor
     explicit DealDamageAction(const int damage) : damage(damage) {}
 

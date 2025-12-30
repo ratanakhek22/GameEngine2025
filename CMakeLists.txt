@@ -12,7 +12,10 @@ add_executable(GameEngine2025
         Player.h
         Card.cpp
         Card.h
-        Action.cpp
-        Action.h
+        Actions/Action.cpp
+        Actions/Action.h
         Random.cpp
-        Random.h)
+        Random.h
+        main.cpp
+        Actions/dealDamageAction.cpp
+        Actions/dealDamageAction.h)

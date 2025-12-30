@@ -10,18 +10,15 @@
 #include "Player.h"
 
 struct GameState {
-    std::array<Player *, 2> players = {};
-    std::array<std::vector<Card>, 2> drawPiles;
-    std::array<std::vector<Card>, 2> discardPiles;
+    std::array<Player, 2> players;
     std::vector<Action> actionQueue = {};
     int turnIndex = 0;
 
     // constructor
-    GameState(Player &p1, Player &p2);
+    GameState(const Player &p1, const Player &p2);
 
     // methods
     void nextTurn();
-    std::vector<Card> drawCards(int n, int playerIndex, bool doShuffle = true);
 };
 
 

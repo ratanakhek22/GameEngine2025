@@ -5,10 +5,10 @@
 #ifndef GAMEENGINE2025_CARD_H
 #define GAMEENGINE2025_CARD_H
 
-# include <string>
+#include <string>
 #include <utility>
 
-#include "Action.h"
+#include "Actions/Action.h"
 
 struct Card {
     std::string name;
@@ -16,7 +16,7 @@ struct Card {
     Action *action = nullptr;
 
     // constructor
-    Card(std::string name, const int id) : name(std::move(name)), id(id) {};
+    Card(std::string name, const int id, Action *action) : name(std::move(name)), id(id), action(action) {};
 
     // methods
 

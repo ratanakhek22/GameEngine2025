@@ -28,16 +28,19 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Working on card and player objects">
-      <change afterPath="$PROJECT_DIR$/Random.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Random.h" afterDir="false" />
+    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Added RNG, Deck Logic, GameState Logic">
+      <change afterPath="$PROJECT_DIR$/Actions/DealDamageAction.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Actions/DealDamageAction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Action.h" beforeDir="false" afterPath="$PROJECT_DIR$/Action.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Action.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Actions/Action.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Action.h" beforeDir="false" afterPath="$PROJECT_DIR$/Actions/Action.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Card.h" beforeDir="false" afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameState.h" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Player.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +91,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;CMake Application.GameEngine2025.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -110,6 +114,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ratan\CLionProjects\GameEngine2025\Actions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="GameEngine2025" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GameEngine2025" TARGET_NAME="GameEngine2025" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GameEngine2025" RUN_TARGET_NAME="GameEngine2025">
       <method v="2">
@@ -130,7 +139,8 @@
       <workItem from="1766691590247" duration="5905000" />
       <workItem from="1766872246631" duration="6622000" />
       <workItem from="1766953827930" duration="9078000" />
-      <workItem from="1767031254443" duration="1874000" />
+      <workItem from="1767031254443" duration="9623000" />
+      <workItem from="1767060584510" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="Started Game Engine Project">
       <option name="closed" value="true" />
@@ -172,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766875997806</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added RNG, Deck Logic, GameState Logic">
+      <option name="closed" value="true" />
+      <created>1767033177159</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767033177160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +205,7 @@
     <MESSAGE value="Started Game Engine Project" />
     <MESSAGE value="Starting" />
     <MESSAGE value="Working on card and player objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on card and player objects" />
+    <MESSAGE value="Added RNG, Deck Logic, GameState Logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added RNG, Deck Logic, GameState Logic" />
   </component>
 </project>

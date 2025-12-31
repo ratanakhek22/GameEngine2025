@@ -16,30 +16,37 @@ enum class GameMode {
 };
 
 class Game {
-// public:
-//     void run();
-//
-// private:
-//     GameMode mode = GameMode::StartMenu;
-//     GameState *gameState = nullptr;
-//
-//     void handleInput();
-//     void update();
-//     void render();
-//
-//     // StartMenu GameMode
-//     void renderStartMenu();
-//
-//     // Exploration GameMode
-//     void renderExplore();
-//
-//     // Combat GameMode
-//     void renderCombat();
-//     void startCombat();
-//     void endCombat();
-//
-//     // GameOver GameMode
-//     void renderGameOver();
+public:
+    void run() const;
+
+    //constructor
+    Game();
+    ~Game();
+
+private:
+    GameMode mode;
+    GameState *gameState = nullptr;
+
+    // void handleInput();
+    // void update();
+    void render() const;
+
+    // StartMenu GameMode
+    static void renderStartMenu();
+
+    // Exploration GameMode
+    // void renderExplore();
+
+    // Combat GameMode
+    // void renderCombat();
+    // void startCombat();
+    // void endCombat();
+
+    // GameOver GameMode
+    // void renderGameOver();
+
+    // Exit GameMode
+    // void renderExit();
 };
 
 #endif //GAMEENGINE2025_GAME_H

@@ -19,6 +19,10 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="GameEngine2025" targetName="uninstall" />
+      <config projectName="GameEngine2025" targetName="raylib" />
+      <config projectName="GameEngine2025" targetName="update_mappings" folderName="GLFW3" />
+      <config projectName="GameEngine2025" targetName="glfw" folderName="GLFW3" />
       <config projectName="GameEngine2025" targetName="GameEngine2025" />
     </generated>
   </component>
@@ -29,18 +33,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Refactor to Classes (bug fixed)">
-      <change afterPath="$PROJECT_DIR$/Utility/Testing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utility/Testing.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Actions/DealDamageAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Actions/DealDamageAction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Card.h" beforeDir="false" afterPath="$PROJECT_DIR$/Card.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/Random.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random.h" beforeDir="false" afterPath="$PROJECT_DIR$/Utility/Random.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +171,7 @@
       <workItem from="1767060584510" duration="854000" />
       <workItem from="1767073101572" duration="102000" />
       <workItem from="1767124786111" duration="7531000" />
-      <workItem from="1767145307361" duration="1718000" />
+      <workItem from="1767145307361" duration="5271000" />
     </task>
     <task id="LOCAL-00001" summary="Started Game Engine Project">
       <option name="closed" value="true" />
@@ -249,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767131542244</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor to Classes (bug fixed)">
+      <option name="closed" value="true" />
+      <created>1767148410771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767148410771</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

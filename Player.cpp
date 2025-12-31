@@ -4,7 +4,6 @@
 
 #include "Player.h"
 #include "Random.h"
-
 #include <algorithm>
 #include <stdexcept>
 

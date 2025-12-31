@@ -2,7 +2,7 @@
 #include "Player.h"
 #include "GameState.h"
 #include "Card.h"
-#include "Actions/DealDamageAction.h"
+#include "DealDamageAction.h"
 
 int main() {
     std::cout << "Welcome to the Game" << std::endl;

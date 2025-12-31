@@ -3,7 +3,7 @@
 //
 
 #include "DealDamageAction.h"
-#include "../Player.h"
+#include "Player.h"
 
 void DealDamageAction::execute(GameState &state, Player &owner, Player &target) {
     target.hit(damage);

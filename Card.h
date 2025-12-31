@@ -7,8 +7,7 @@
 
 #include <string>
 #include <utility>
-
-#include "Actions/Action.h"
+#include "Action.h"
 
 class Card {
     std::string name;
@@ -26,6 +25,5 @@ public:
     std::string getName() const {return name;}
     Action *getAction() const {return action;}
 };
-
 
 #endif //GAMEENGINE2025_CARD_H

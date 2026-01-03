@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 include_directories(Actions)
 include_directories(Utility)
+include_directories(GUI)
 
 # Fetch raylib
 include(FetchContent)
@@ -33,6 +34,10 @@ add_executable(GameEngine2025
         Game.cpp
         Game.h
         Utility/Testing.cpp
-        Utility/Testing.h)
+        Utility/Testing.h
+        GUI/Button.cpp
+        GUI/Button.h
+        GUI/Label.cpp
+        GUI/Label.h)
 
 target_link_libraries(GameEngine2025 raylib)

@@ -6,6 +6,9 @@
 #define GAMEENGINE2025_GAME_H
 
 #include "GameState.h"
+#include "raylib.h"
+#include "Button.h"
+#include "Label.h"
 
 enum class GameMode {
     StartMenu,
@@ -17,7 +20,7 @@ enum class GameMode {
 
 class Game {
 public:
-    void run() const;
+    void run();
 
     //constructor
     Game();
@@ -27,12 +30,21 @@ private:
     GameMode mode;
     GameState *gameState = nullptr;
 
-    // void handleInput();
+    // input
+    Vector2 mousePos = Vector2();
+
+    // UI Elements
+    Label titleLabel = Label();
+
+    Button startGameButton = Button();
+    Button quitButton = Button();
+
+    void handleInput();
     // void update();
     void render() const;
 
     // StartMenu GameMode
-    static void renderStartMenu();
+    void renderStartMenu() const;
 
     // Exploration GameMode
     // void renderExplore();

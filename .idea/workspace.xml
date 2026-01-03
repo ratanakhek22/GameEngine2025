@@ -32,16 +32,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Progress on Rendering Window and Logic">
-      <change afterPath="$PROJECT_DIR$/GUI/Button.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Button.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Label.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GUI/Label.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="f82992d3-a905-49c0-8257-67751bc32f99" name="Changes" comment="Completed Button Class">
+      <change beforePath="$PROJECT_DIR$/GUI/Button.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Button.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Button.h" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Button.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Label.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Label.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/Label.h" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Label.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +171,7 @@
       <workItem from="1767218545563" duration="7169000" />
       <workItem from="1767228759808" duration="1608000" />
       <workItem from="1767311453273" duration="2830000" />
-      <workItem from="1767473439201" duration="5482000" />
+      <workItem from="1767473439201" duration="6779000" />
     </task>
     <task id="LOCAL-00001" summary="Started Game Engine Project">
       <option name="closed" value="true" />
@@ -266,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767153867604</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Completed Button Class">
+      <option name="closed" value="true" />
+      <created>1767481489950</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767481489951</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +289,7 @@
     <MESSAGE value="Refactor to Classes" />
     <MESSAGE value="Refactor to Classes (bug fixed)" />
     <MESSAGE value="Progress on Rendering Window and Logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress on Rendering Window and Logic" />
+    <MESSAGE value="Completed Button Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Button Class" />
   </component>
 </project>

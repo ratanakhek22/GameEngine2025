@@ -12,7 +12,7 @@ class Button {
     Rectangle rect;
     Color normalColor;
     Color hoverColor;
-    Label label = Label();
+    Label label;
 
 public:
     // constructor

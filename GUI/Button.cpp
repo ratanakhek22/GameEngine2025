@@ -4,6 +4,14 @@
 
 #include "Button.h"
 
+Button::Button(const Rectangle rect, const Color normColor, const Color hoverColor,
+    const char * labelText = "")
+    : rect(rect), normalColor(normColor), hoverColor(hoverColor){
+    if (labelText != "") {
+        label = Label();
+    }
+}
+
 bool Button::isClicked(const Vector2 mousePos) const {
     return CheckCollisionPointRec(mousePos, rect)
         && IsMouseButtonPressed(MOUSE_LEFT_BUTTON);

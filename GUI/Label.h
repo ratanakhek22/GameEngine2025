@@ -17,6 +17,7 @@ class Label {
 public:
     // constructor
     Label(Rectangle rect, const char * textInput, Color textColor, int fSize, int gap);
+    Label(int xPos, int yPos, const char * textInput, int fSize, Color textColor);
 
     // methods
     void centerPos(Rectangle rect);

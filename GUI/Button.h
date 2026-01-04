@@ -9,17 +9,19 @@
 #include "Label.h"
 
 class Button {
-    Rectangle rect;
-    Color normalColor;
-    Color hoverColor;
-    Label label;
+    Label label = Label();
+    Rectangle rect = {0, 0, 0, 0, };
+    Color normalColor = WHITE;
+    Color hoverColor = WHITE;
 
 public:
     // constructor
-    Button();
+    Button() = default;
+    Button(Rectangle rect, Color normColor, Color hoverColor,
+        const LabelConfig& config = {});
 
     // methods
-    bool isClicked(Vector2 mousePos) const;
+    [[nodiscard]] bool isClicked(Vector2 mousePos) const;
     void draw(Vector2 mousePos) const;
 };
 

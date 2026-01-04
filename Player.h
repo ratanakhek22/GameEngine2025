@@ -7,6 +7,7 @@
 
 #include <utility>
 #include <vector>
+#include <string>
 #include "Card.h"
 
 class Player {
@@ -26,17 +27,17 @@ public:
     void setDeck(const std::vector<Card> &collection);
     void addCard(const Card &card);
     void deleteCard(const Card &card);
-    std::vector<Card> drawCards(int n, bool doShuffle);
     void hit(int damage);
     void setHp(int health);
+    std::vector<Card> drawCards(int n, bool doShuffle);
 
     // gets
-    int getHp() const {return hp;}
-    int getMaxHp() const {return maxHp;}
-    std::string getName() const {return name;}
-    std::vector<Card> getDeck() const {return deck;}
-    std::vector<Card> getDiscard() const {return discard;}
-    std::vector<Card> getDeletedCards() const {return deletedCards;}
+    [[nodiscard]] int getHp() const {return hp;}
+    [[nodiscard]] int getMaxHp() const {return maxHp;}
+    [[nodiscard]] std::string getName() const {return name;}
+    [[nodiscard]] std::vector<Card> getDeck() const {return deck;}
+    [[nodiscard]] std::vector<Card> getDiscard() const {return discard;}
+    [[nodiscard]] std::vector<Card> getDeletedCards() const {return deletedCards;}
 };
 
 #endif //GAMEENGINE2025_PLAYER_H

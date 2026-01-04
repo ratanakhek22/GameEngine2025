@@ -6,28 +6,37 @@
 #define GAMEENGINE2025_LABEL_H
 
 #include "raylib.h"
+#include <optional>
+
+struct LabelConfig {
+    const char *text = "";
+    std::optional<int> fontSize;
+    Color color = BLACK;
+    int gap = 10;
+};
 
 class Label {
+    const char *text = nullptr;
+    Color color = BLACK;
     int xPos = 0;
     int yPos = 0;
-    int fontSize = 20;
-    const char *text = nullptr;
-    Color color;
+    int fontSize = 0;
 
 public:
     // constructor
-    Label(Rectangle rect, const char * textInput, Color textColor, int fSize, int gap);
-    Label(int xPos, int yPos, const char * textInput, int fSize, Color textColor);
+    Label() = default;
+    explicit Label(Rectangle rect, const LabelConfig &config = {});
+    Label(int xPos, int yPos, const LabelConfig &config = {});
 
     // methods
     void centerPos(Rectangle rect);
     void draw() const;
 
     // gets
-    int getxPos() const { return xPos; }
-    int getyPos() const { return yPos; }
-    int getFontSize() const { return fontSize; }
-    const char *getText() const { return text; }
+    [[nodiscard]] int getxPos() const { return xPos; }
+    [[nodiscard]] int getyPos() const { return yPos; }
+    [[nodiscard]] int getFontSize() const { return fontSize; }
+    [[nodiscard]] const char *getText() const { return text; }
 };
 
 #endif //GAMEENGINE2025_LABEL_H

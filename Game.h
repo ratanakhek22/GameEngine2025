@@ -20,11 +20,12 @@ enum class GameMode {
 
 class Game {
 public:
-    void run();
-
-    //constructor
+    // constructor
     Game();
     ~Game();
+
+    // methods
+    void run();
 
 private:
     GameMode mode;
@@ -35,7 +36,6 @@ private:
 
     // UI Elements
     Label titleLabel = Label();
-
     Button startGameButton = Button();
     Button quitButton = Button();
 

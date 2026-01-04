@@ -11,19 +11,20 @@
 
 class Card {
     std::string name;
+    Action* action = nullptr;
     int id = -1;
-    Action *action = nullptr;
 
 public:
     // constructor
-    Card(std::string name, const int id, Action *action) : name(std::move(name)), id(id), action(action) {};
+    Card(std::string name, const int id, Action *action)
+    : name(std::move(name)), action(action), id(id) {};
 
     // methods
 
     // gets
-    int getID() const {return id;}
-    std::string getName() const {return name;}
-    Action *getAction() const {return action;}
+    [[nodiscard]] int getID() const {return id;}
+    [[nodiscard]] std::string getName() const {return name;}
+    [[nodiscard]] Action* getAction() const {return action;}
 };
 
 #endif //GAMEENGINE2025_CARD_H

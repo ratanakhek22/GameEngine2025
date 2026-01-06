@@ -28,19 +28,20 @@ public:
     void run();
 
 private:
+    // Game Objects
+    GameState* gameState = nullptr;
+    Player user = Player("Swizzy22");
     GameMode mode;
-    GameState *gameState = nullptr;
 
     // input
     Vector2 mousePos = Vector2();
 
     // UI Elements
+    std::vector<Button> startMenuButtons = {};
     Label titleLabel = Label();
-    Button startGameButton = Button();
-    Button quitButton = Button();
 
     void handleInput();
-    // void update();
+    void update();
     void render() const;
 
     // StartMenu GameMode

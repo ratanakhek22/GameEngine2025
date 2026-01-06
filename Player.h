@@ -24,12 +24,12 @@ public:
         : name(std::move(playerName)) {}
 
     // methods
-    void setDeck(const std::vector<Card> &collection);
-    void addCard(const Card &card);
-    void deleteCard(const Card &card);
+    void setDeck(const std::vector<Card>& collection);
+    void addCard(const Card& card);
+    void deleteCard(const Card& card);
     void hit(int damage);
     void setHp(int health);
-    std::vector<Card> drawCards(int n, bool doShuffle);
+    std::vector<Card> drawCards(int n, bool doShuffle = false);
 
     // gets
     [[nodiscard]] int getHp() const {return hp;}

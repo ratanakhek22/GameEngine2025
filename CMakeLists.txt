@@ -38,6 +38,8 @@ add_executable(GameEngine2025
         GUI/Button.cpp
         GUI/Button.h
         GUI/Label.cpp
-        GUI/Label.h)
+        GUI/Label.h
+        Enemy.cpp
+        Enemy.h)
 
 target_link_libraries(GameEngine2025 raylib)

@@ -16,7 +16,7 @@ class Card {
 
 public:
     // constructor
-    Card(std::string name, const int id, Action *action)
+    Card(std::string name, const int id, Action* action)
     : name(std::move(name)), action(action), id(id) {};
 
     // methods

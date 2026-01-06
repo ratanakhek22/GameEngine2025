@@ -5,19 +5,23 @@
 #ifndef GAMEENGINE2025_BUTTON_H
 #define GAMEENGINE2025_BUTTON_H
 
+#include <functional>
 #include "raylib.h"
 #include "Label.h"
 
 class Button {
     Label label = Label();
-    Rectangle rect = {0, 0, 0, 0, };
+    Rectangle rect = {0, 0, 0, 0};
     Color normalColor = WHITE;
     Color hoverColor = WHITE;
 
 public:
+    std::function <void()> onClick = []() {};
+
     // constructor
     Button() = default;
     Button(Rectangle rect, Color normColor, Color hoverColor,
+        const std::function <void()>& onClick,
         const LabelConfig& config = {});
 
     // methods

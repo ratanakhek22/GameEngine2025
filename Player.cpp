@@ -7,15 +7,15 @@
 #include <algorithm>
 #include <stdexcept>
 
-void Player::setDeck(const std::vector<Card> &collection) {
+void Player::setDeck(const std::vector<Card>& collection) {
     deck = collection;
 }
 
-void Player::addCard(const Card &card) {
+void Player::addCard(const Card& card) {
     deck.push_back(card);
 }
 
-void Player::deleteCard(const Card &card) {
+void Player::deleteCard(const Card& card) {
     deck.erase(
         std::remove_if(deck.begin(), deck.end(),
             [card](const Card &c) {

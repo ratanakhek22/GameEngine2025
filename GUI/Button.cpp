@@ -4,8 +4,8 @@
 
 #include "Button.h"
 
-Button::Button(const Rectangle rect, const Color normColor, const Color hoverColor, const LabelConfig& config)
-    : rect(rect), normalColor(normColor), hoverColor(hoverColor) {
+Button::Button(const Rectangle rect, const Color normColor, const Color hoverColor, const std::function <void()>& onClick, const LabelConfig& config)
+    : rect(rect), normalColor(normColor), hoverColor(hoverColor), onClick(onClick) {
     label = Label(rect, config);
 }
 

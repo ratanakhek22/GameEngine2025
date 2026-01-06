@@ -5,22 +5,40 @@
 #ifndef GAMEENGINE2025_GAMESTATE_H
 #define GAMEENGINE2025_GAMESTATE_H
 
-#include <array>
 #include <vector>
 #include "Player.h"
+#include "Enemy.h"
+
+enum State {
+    StartTurn,
+    TakingTurn,
+    EndTurn,
+    EnemyTurn,
+};
+
+struct InputFlags {
+    bool a_key = false;
+};
 
 class GameState {
-    std::array<Player, 2> players;
+    Player player;
+    Enemy enemy;
     std::vector<Action> actionQueue = {};
-    int turnIndex = 0;
+    int turnCounter = 0;
+    State state;
+
+    // methods
+    void startTurn();
+    void takingTurn();
+    void endTurn();
+    void enemyTurn();
 
 public:
     // constructor
-    GameState(const Player &p1, const Player &p2);
+    GameState(const Player& player, const Enemy& enemy);
 
     // methods
-    void nextTurn();
+    void update();
 };
-
 
 #endif //GAMEENGINE2025_GAMESTATE_H

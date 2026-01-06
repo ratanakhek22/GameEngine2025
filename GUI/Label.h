@@ -9,7 +9,7 @@
 #include <optional>
 
 struct LabelConfig {
-    const char *text = "";
+    const char* text = "";
     std::optional<int> fontSize;
     Color color = BLACK;
     int gap = 10;
@@ -36,7 +36,7 @@ public:
     [[nodiscard]] int getxPos() const { return xPos; }
     [[nodiscard]] int getyPos() const { return yPos; }
     [[nodiscard]] int getFontSize() const { return fontSize; }
-    [[nodiscard]] const char *getText() const { return text; }
+    [[nodiscard]] const char* getText() const { return text; }
 };
 
 #endif //GAMEENGINE2025_LABEL_H
